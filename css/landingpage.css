@@ -1,0 +1,102 @@
+body{
+	background: url("../images/background.jpg") center no-repeat;
+	background-size: cover;
+}
+/*
+.rectangle{
+	height: 260px;
+	background-color: red;
+}
+*/
+#traditional{
+	background: url("../images/traditional.jpg") no-repeat center;
+	 background-size: 100% 100%;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    background-position: center center;
+}
+
+#trendy{
+	background: url("../images/trendy.jpg") no-repeat;
+	 background-size: 100% 100%;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    background-position: center center;
+}
+
+
+#bespoke{
+	background: url("../images/bespoke.jpg") no-repeat;
+	background-size: 100% 100%;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    background-position: center center;
+}
+
+
+#di{
+	background: url("../images/di.jpg") no-repeat;
+	background-size: 100% 100%;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    background-position: center center;
+}
+
+
+#traditional:hover, #trendy:hover, #bespoke:hover,#di:hover{
+    background-size: 120% 120%;
+
+}
+
+
+.category{
+	padding-top: 2%;
+	text-align: center;
+	color: white;
+}
+
+.category h3{
+	padding-top: 60px;
+	font-family: 'Mr De Haviland', cursive;
+	font-size: 65px;
+}
+
+.category p{
+	padding-bottom: 60px;
+	font-family: 'Quattrocento', serif;
+	font-size: 15px;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	color: white !important ;
+
+}
+
+.navbar-right li{
+	font-weight: bold;
+	font-family: 'Quattrocento', serif;
+
+}
+
+.category a{
+	color: white;
+}
+
+
+.category a:hover{
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: white;
+}
