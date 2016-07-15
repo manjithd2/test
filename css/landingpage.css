@@ -11,28 +11,30 @@ body{
 #traditional{
 	background: url("../images/traditional.jpg") no-repeat center;
 	 background-size: 100% 100%;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+  -moz-transition: all .5s .1s;
+    -webkit-transition: all .5s 1s;
+    transition: all .5s .1s;
     background-position: center center;
+
 }
 
 #trendy{
 	background: url("../images/trendy.jpg") no-repeat;
 	 background-size: 100% 100%;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+      -moz-transition: all .5s .1s;
+    -webkit-transition: all .5s 1s;
+    transition: all .5s .1s;
     background-position: center center;
+
 }
 
 
 #bespoke{
 	background: url("../images/bespoke.jpg") no-repeat;
 	background-size: 100% 100%;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -moz-transition: all .5s .1s;
+    -webkit-transition: all .5s 1s;
+    transition: all .5s .1s;
     background-position: center center;
 }
 
@@ -40,10 +42,11 @@ body{
 #di{
 	background: url("../images/di.jpg") no-repeat;
 	background-size: 100% 100%;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -moz-transition: all .5s .1s;
+    -webkit-transition: all .5s 1s;
+    transition: all .5s .1s;
     background-position: center center;
+
 }
 
 
